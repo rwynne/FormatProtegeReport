@@ -49,12 +49,15 @@ ready to be run.
    Follow this script by typing the optional and required parameters as such:
 
    - Windows:
+   
    C:\FormatProtegeReport>FormatProtegeReport [OPTIONS] [RAW REPORT INPUT FILE] [EXCEL OUTPUT FILE]
 
    - Mac:
+   
    $./FormatProtegeReport.sh [OPTIONS] [RAW REPORT INPUT FILE] [EXCEL OUTPUT FILE]
 
    Example from the included test input file:
+
 
    C:\>FormatProtegeReport CTRP_Full.txt CTRP_Pretty.xls
 
@@ -62,6 +65,7 @@ ready to be run.
    the location of the config file specified.
 
    C:\>FormatProtegeReport -C ".\config\configExample2.txt" CTRP_Full.txt CTRP_Pretty.xls
+   
    $./FormatProtegeReport.sh -C "./config/configExample2.txt" CTRP_Full.txt CTRP_Pretty.xls
 
 
