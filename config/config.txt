@@ -1,0 +1,15 @@
+ColumnNumber=1
+Property=NHC0
+
+ColumnNumber=2
+Property=P108
+
+ColumnNumber=3
+Property=P107
+
+ColumnNumber=4
+Property=P90
+QualifierName=term-source
+QualifierValue=CTRP
+QualifierName=term-group
+QualifierValue=DN
