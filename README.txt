@@ -2,7 +2,7 @@ RWW: This file was last updated on 8/21/18
 
 FormatProtegeReport v1.1
 ========================
-This program will take a Protege 5 report and format it to your specifications
+This program will take an NCI Protege 5 report and format it to your specifications
 (declared in a configuration file).  The input is the raw report from Protege
 and the outputs are a text .txt and Excel .xls files.
 
