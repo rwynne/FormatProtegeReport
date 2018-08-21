@@ -24,7 +24,7 @@ will default to using this config file if none is specified from the command-lin
 Each column of the desired output is configurable.  The parameters expected by each column include
 the following, followed by an equals sign, and then the desired value.  All entries for a column 
 should begin with ColumnNumber.
-
+```
 ColumnNumber=<integer>
 Property=<the property code in the raw file>
 *QualifierName=<a qualifier name of a property value in the raw file>
@@ -32,7 +32,7 @@ Property=<the property code in the raw file>
 
 * there may be zero or more Qualifiers specified in the configuration.  If none is
 specified, all properties will be ouput (without JSON markup if qualifiers exist).
-
+```
 Any configuration file with errors in it will be reported by the program.  For example, if
 there is a typo on QualifierName (e.g. QualferNAme) the program will abort letting you know
 of the erroneous line.
